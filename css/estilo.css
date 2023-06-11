@@ -1,0 +1,166 @@
+ @import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Roboto+Slab&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Lora&family=Roboto+Slab&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Lora&family=Nova+Cut&family=Roboto+Slab&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+    font-family: 'Lora', serif;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo{
+    flex:20%;
+    margin-left: 10%;
+    /* border:1px solid red; */
+    text-align: center;
+    font-size: 25px;
+
+
+}
+
+.logo h1{
+
+    font-family: 'Nova Cut', cursive;
+    color: #180F4A;
+    font: size 40px;
+}
+
+.menu{
+    flex:70%;
+    /* border:1p solid green; */
+    text-align: right;
+    padding: 20px;
+    
+}
+
+.menu a{
+    color: #180F4A;
+    text-decoration: none;
+    font-size: 20px;
+    padding:20px 16px;
+
+}
+
+.menu a:hover{
+    color: #ff2978;
+    border-bottom: 4px solid#180F4A;
+
+
+}
+
+#botao{
+    background: #180F4A;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+    
+}
+
+#botao:hover{
+    border:none;
+    background:#ff2978;
+}
+
+
+.header{
+    height: 600px;
+    background: gray;
+    color:#ffd30e
+}
+
+
+.imagem{
+    margin-right: 10%;
+    flex: 40%;
+    display:flex;
+    justify-content: flex-end;
+    margin-top: -40px;
+    color: #180F4A;
+}
+
+.imagehome {
+    float: right;
+    opacity: 95%;
+    margin-right: 100px;
+    border-radius: 10px;
+    box-shadow: 10px;
+    margin-top: -600px;
+    height: 700px;
+    object-fit: cover;
+}
+
+.imgmao {
+    float:left;
+    margin-top: -400px;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.imgape {
+    float: right;
+    margin-right: 200px;
+    border-radius: 10px;
+}
+
+.imgpre {
+    float: left;
+
+}
+
+.equipeh1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+  }
+  
+  .image-container {
+    text-align: center; /* alinha as imagens horizontalmente */
+    width: 50%;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px; /* aumentar o valor do espaçamento */
+    margin-top: 225px;
+    
+   
+    
+  }
+  
+  .image-container img {
+    flex: 1;
+    border-radius: 10px;
+    max-width: 100%;
+    width: 800px; /* ajuste o tamanho conforme necessário */
+    height:400px; /* ajuste o tamanho conforme necessário */
+    object-fit: cover; /* para redimensionar a imagem mantendo a proporção */
+  }
+
+  .espacamento {
+margin-left: 30px;
+  }
+
+  .titulo {
+text-align: center;
+margin-top: 100px;
+  }
+  
+.formulario {
+    font-size: large;
+text-align: center;
+}
